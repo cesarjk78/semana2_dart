@@ -1,5 +1,3 @@
-# semana2_dart
-
 class Alumno {
   String codigo;
   String nombre;
@@ -23,7 +21,7 @@ class Alumno {
   double calcularPromedio() {
     List<double> notas = [nota1, nota2, nota3];
     notas.sort();
-//ss
+
     double promedio = (notas[1] + notas[2]) / 2;
     return promedio;
   }
